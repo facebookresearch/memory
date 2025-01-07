@@ -41,6 +41,7 @@ python -m lingua.stool script=apps.main.train config=apps/main/configs/pkplus_37
 torchrun --nproc-per-node 8 -m apps.main.train config=apps/main/configs/pkplus_373m_1024k.yaml
 # or you can also launch on 1 GPU
 python -m apps.main.train config=apps/main/configs/pkplus_373m_1024k.yaml
+```
 
 ## Project overview
 
